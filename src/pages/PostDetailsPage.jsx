@@ -13,6 +13,11 @@ import ErrorMessage from 'components/ErrorMessage';
 
 import { findPostById } from 'services/api';
 import { useDispatch, useSelector } from 'react-redux';
+import {
+  setError,
+  setIsLoading,
+  setPostDetails,
+} from 'redux/postDetailReducer';
 
 const PostCommentsPage = lazy(() => import('pages/PostCommentsPage'));
 
@@ -35,16 +40,16 @@ const PostDetailsPage = () => {
     const fetchAllPosts = async () => {
       try {
         // setIsLoading(true);
-        dispatch({ type: 'postDetails/setIsLoading', payload: true });
+        dispatch(setIsLoading(true));
         const postData = await findPostById(postId);
         // setPostDetails(postData);
-        dispatch({ type: 'postDetails/setPostDetails', payload: postData });
+        dispatch(setPostDetails(postData));
       } catch (error) {
         // setError(error.message);
-        dispatch({ type: 'postDetails/setError', payload: error.message });
+        dispatch(setError(error.message));
       } finally {
         // setIsLoading(false);
-        dispatch({ type: 'postDetails/setIsLoading', payload: false });
+        dispatch(setIsLoading(false));
       }
     };
 
