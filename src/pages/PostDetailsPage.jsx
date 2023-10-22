@@ -14,6 +14,7 @@ import ErrorMessage from 'components/ErrorMessage';
 import { findPostById } from 'services/api';
 import { useDispatch, useSelector } from 'react-redux';
 import {
+  addPost,
   setError,
   setIsLoading,
   setPostDetails,
@@ -59,6 +60,9 @@ const PostDetailsPage = () => {
   return (
     <div>
       <Link to={backLinkHref.current}>Go Back</Link>
+      <button onClick={() => dispatch(addPost({ title: '123', body: '123' }))}>
+        Click to add post to STATE
+      </button>
 
       {isLoading && <Loader />}
       {error && <ErrorMessage message={error} />}
