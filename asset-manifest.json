@@ -1,13 +1,26 @@
 {
   "files": {
-    "main.css": "/redux-toolkit-lesson6/static/css/main.7acaea2f.css",
-    "main.js": "/redux-toolkit-lesson6/static/js/main.07d3183d.js",
+    "main.css": "/redux-toolkit-lesson6/static/css/main.4f044e39.css",
+    "main.js": "/redux-toolkit-lesson6/static/js/main.714dd2ff.js",
+    "static/js/983.6e33c20e.chunk.js": "/redux-toolkit-lesson6/static/js/983.6e33c20e.chunk.js",
+    "static/js/649.7991debf.chunk.js": "/redux-toolkit-lesson6/static/js/649.7991debf.chunk.js",
+    "static/js/735.403cff96.chunk.js": "/redux-toolkit-lesson6/static/js/735.403cff96.chunk.js",
+    "static/js/630.cac40524.chunk.js": "/redux-toolkit-lesson6/static/js/630.cac40524.chunk.js",
+    "static/js/149.403ff50c.chunk.js": "/redux-toolkit-lesson6/static/js/149.403ff50c.chunk.js",
+    "static/js/279.f29672bb.chunk.js": "/redux-toolkit-lesson6/static/js/279.f29672bb.chunk.js",
     "index.html": "/redux-toolkit-lesson6/index.html",
-    "main.7acaea2f.css.map": "/redux-toolkit-lesson6/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/redux-toolkit-lesson6/static/js/main.07d3183d.js.map"
+    "static/media/search.svg": "/redux-toolkit-lesson6/static/media/search.93bb8714c3dcf7b8cd020ca8152fde64.svg",
+    "main.4f044e39.css.map": "/redux-toolkit-lesson6/static/css/main.4f044e39.css.map",
+    "main.714dd2ff.js.map": "/redux-toolkit-lesson6/static/js/main.714dd2ff.js.map",
+    "983.6e33c20e.chunk.js.map": "/redux-toolkit-lesson6/static/js/983.6e33c20e.chunk.js.map",
+    "649.7991debf.chunk.js.map": "/redux-toolkit-lesson6/static/js/649.7991debf.chunk.js.map",
+    "735.403cff96.chunk.js.map": "/redux-toolkit-lesson6/static/js/735.403cff96.chunk.js.map",
+    "630.cac40524.chunk.js.map": "/redux-toolkit-lesson6/static/js/630.cac40524.chunk.js.map",
+    "149.403ff50c.chunk.js.map": "/redux-toolkit-lesson6/static/js/149.403ff50c.chunk.js.map",
+    "279.f29672bb.chunk.js.map": "/redux-toolkit-lesson6/static/js/279.f29672bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.4f044e39.css",
+    "static/js/main.714dd2ff.js"
   ]
 }
